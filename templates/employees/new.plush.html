@@ -1,0 +1,8 @@
+<div class="page-header">
+  <h1>New Employee</h1>
+</div>
+
+<%= formFor(employee, {action: employeesPath(), method: "POST"}) { %>
+  <%= partial("employees/form.html") %>
+  <%= linkTo(employeesPath(), {class: "btn btn-warning", "data-confirm": "Are you sure?", body: "Cancel"}) %>
+<% } %>

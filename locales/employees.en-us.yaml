@@ -1,0 +1,6 @@
+- id: "employee.created.success"
+  translation: "Employee was successfully created."
+- id: "employee.updated.success"
+  translation: "Employee was successfully updated."
+- id: "employee.destroyed.success"
+  translation: "Employee was successfully destroyed."
